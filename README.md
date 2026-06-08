@@ -6,7 +6,7 @@ Claude Code Skills 集合。
 
 | Skill | 说明 |
 |-------|------|
-| [catchkey/image-prompt-extractor](catchkey/image-prompt-extractor/) | 图片上传 → AI prompt 反推/生成 |
+| [catchkey](catchkey/) | 图片上传 → AI prompt 反推/生成 |
 
 ## 安装
 

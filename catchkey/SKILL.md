@@ -1,5 +1,5 @@
 ---
-name: image-prompt-extractor
+name: catchkey
 description: >
   Reverse-engineer any image into detailed AI prompts for Midjourney, Stable Diffusion,
   DALL·E, Flux, and ComfyUI. Use this skill whenever a user shares, references, or uploads
