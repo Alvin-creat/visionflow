@@ -1,17 +1,17 @@
 # Skills
 
-Claude Code Skills 集合。
+A collection of Claude Code Skills.
 
-## 目录
+## Index
 
-| Skill | 说明 |
-|-------|------|
-| [catchkey](catchkey/) | 图片上传 → AI prompt 反推/生成 |
+| Skill | Description |
+|-------|-------------|
+| [catchkey](skills/catchkey/) | Upload an image → extract / reverse-engineer AI prompts |
 
-## 安装
+## Installation
 
-将整个 `skills/` 目录放到项目根目录下的 `.claude/skills/` 中，或单独安装某个 skill。
+Copy the `skills/` directory into `.claude/skills/` under your project root, or install individual skills separately.
 
-## 许可
+## License
 
 MIT

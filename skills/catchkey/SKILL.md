@@ -5,7 +5,7 @@ description: >
   DALL·E, Flux, and ComfyUI. Use this skill whenever a user shares, references, or uploads
   an image and wants to know how to recreate it, what prompt generated it, or how to describe
   it for AI generation. This includes when users say "extract the prompt", "reverse engineer
-  this image", "what prompt would create this", "帮我提取提示词", "反推这张图的prompt",
+  this image", "what prompt would create this",
   "write a prompt to recreate this", "what style is this image", or when they ask to convert
   a visual reference into text for any AI image generator. Whenever an image is involved and
   the user wants a prompt out of it, use this skill. Do not use for generic prompt writing
@@ -63,7 +63,7 @@ Ask yourself what the user needs based on context:
 
 - Did they mention a specific platform (Midjourney, SD, DALL·E, etc.)? → Use that format
 - Did the image look AI-generated in a specific model's style? → Prioritize that model's format, but offer alternatives
-- Is the user speaking Chinese? → Write prompts in English (the standard for AI generation) but wrap analysis and explanations in Chinese
+- Is the user speaking a non-English language? → Write prompts in English (the standard for AI generation) but wrap analysis and explanations in their language
 - Did they upload a real photo and want to "recreate" it? → Midjourney or Flux format is usually best — they handle photorealistic well
 - Are they a power user who seems technical? → Include advanced parameters (--stylize, --chaos, weight syntax, LoRA mentions)
 
@@ -87,7 +87,7 @@ This is the core of the skill. A great prompt isn't just a list of what you see 
 
 6. **Always generate creative variants, not just platform translations.** This is critical — don't just convert the same prompt between Midjourney and SD. Offer genuinely different creative interpretations of the same image. For example: for a landscape photo, offer "Documentary realism", "Studio Ghibli animated version", and "Minimalist poster style" — each a distinct creative direction, not just the same words in different syntax. Label each with what's different about it so the user understands the creative choice they're making.
 
-7. **Deliver at least one unexpected insight.** Look for something in the image the user might not have consciously noticed but that makes it special — the way fog softens the treeline, the accidental color harmony between a character's shirt and the background, the specific year a film stock was discontinued. This is what separates "可以" from "详细".
+7. **Deliver at least one unexpected insight.** Look for something in the image the user might not have consciously noticed but that makes it special — the way fog softens the treeline, the accidental color harmony between a character's shirt and the background, the specific year a film stock was discontinued. This is what separates an "OK" output from a truly insightful one.
 
 **Platform-specific notes:**
 
